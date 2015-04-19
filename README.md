@@ -114,12 +114,12 @@ Then proceed with the rebasing process.
 
 You are welcome, and encouraged, to contribute your own analogies! The process of contributing to this project will help you learn the Git commands it describes. Please do:
 
-. Fork the project.
-. Clone the repository.
-. Edit the heck out of the project.
-. Commit your changes.
-. Push your changes back up to your copy of the repository on GitHub.
-. Submit a pull request to the main repository.
+1. Fork the project.
+1. Clone the repository.
+1. Edit the heck out of the project.
+1. Commit your changes.
+1. Push your changes back up to your copy of the repository on GitHub.
+1. Submit a pull request to the main repository.
 
 This project is all in good fun and licensed for maximum sharing and reusability. It is licensed as [CC-BY](http://creativecommons.org/licenses/by/4.0/). You are encouraged to adopt, and adapt and use it as a starting place to further your own understanding of git.
 
