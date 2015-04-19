@@ -109,3 +109,21 @@ Then proceed with the rebasing process.
 `$ git rebase --continue`
 
 [Git command reference for rebase](https://www.kernel.org/pub/software/scm/git/docs/git-rebase.html).
+
+## Contributing
+
+You are welcome, and encouraged, to contribute your own analogies! The process of contributing to this project will help you learn the Git commands it describes. Please do:
+
+. Fork the project.
+. Clone the repository.
+. Edit the heck out of the project.
+. Commit your changes.
+. Push your changes back up to your copy of the repository on GitHub.
+. Submit a pull request to the main repository.
+
+This project is all in good fun and licensed for maximum sharing and reusability. It is licensed as [CC-BY](http://creativecommons.org/licenses/by/4.0/). You are encouraged to adopt, and adapt and use it as a starting place to further your own understanding of git.
+
+## Contributors
+
+- Emma Jane Hogbin Westby ([emmajane](https://github.com/emmajane)) - [Git for Teams](http://gitforteams.com)
+- Yvonne Lam ([yzl](https://github.com/yzl))
