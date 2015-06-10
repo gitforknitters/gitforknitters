@@ -15,7 +15,7 @@ Git also offers its own [glossary of git terms](https://www.kernel.org/pub/softw
 
 ### stash
 
-*In knitting terms:* Knitters will often refer to "having a stash" of yarn. When starting a new project we might "shop the stash" instead of going to the store. Those of us who have *a lot* of stupplies may say that we have "achieved SABLE" (Stash Amassed Beyond Life Expectancy).
+*In knitting terms:* Knitters will often refer to "having a stash" of yarn. When starting a new project we might "shop the stash" instead of going to the store. Those of us who have *a lot* of supplies may say that we have "achieved SABLE" (Stash Amassed Beyond Life Expectancy).
 
 *In Git terms:* you are working on a branch, coding a specific feature. All of a sudden you realise that you want (or need) to work on something else for a bit. You aren't at a logical stopping point so you don't want to `commit` your work. Instead, you can use `stash` to temporarily shelve your work.
 
@@ -23,7 +23,7 @@ Git also offers its own [glossary of git terms](https://www.kernel.org/pub/softw
 
 The changes you were working on are now included in your `stash`. You may apply them to the branch you are currently on, and they are available to *any* branch in your repository. So if you realise you had been working in the wrong branch, this is also a great way to move your changes to the correct branch.
 
-Once you've stashed your un-commited changes, the working directory is clean and you may change branches to work on a different set of tasks.
+Once you've stashed your uncommitted changes, the working directory is clean and you may change branches to work on a different set of tasks.
 
 When you are ready to re-apply your changes, you may "shop the stash" to locate the relevant stash. First, take a quick inventory of all the available stashes:
 
@@ -70,7 +70,7 @@ These commits will be removed from history as if they never happened. The files 
 
 Your text editor will open. Write a detailed commit message about the changes you made.
 
-Perhaps, obviously, it is not appropriate to tink (reset) work which has already been shared with others as other knitters already have the stitches on their needles and your changing of history will .. shall we say .. make life "complicated". If you've already shared this branch, it's more appropriate to use `revert`.
+Perhaps, obviously, it is not appropriate to tink (reset) work which has already been shared with others as other knitters already have the stitches on their needles and your changing of history will ... shall we say ... make life "complicated". If you've already shared this branch, it's more appropriate to use `revert`.
 
 [Git command reference for reset](https://www.kernel.org/pub/software/scm/git/docs/git-reset.html).
 
