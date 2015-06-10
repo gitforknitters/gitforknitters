@@ -70,7 +70,7 @@ These commits will be removed from history as if they never happened. The files 
 
 Your text editor will open. Write a detailed commit message about the changes you made.
 
-Perhaps, obviously, it is not appropriate to tink (reset) work which has already been shared with others as other knitters already have the stitches on their needles and your changing of history will ... shall we say ... make life "complicated". If you've already shared this branch, it's more appropriate to use `revert`.
+Perhaps, obviously, it is not appropriate to tink (reset) work which has already been shared with others as other knitters already have the stitches on their needles and your changing of history will … shall we say … make life "complicated". If you've already shared this branch, it's more appropriate to use `revert`.
 
 [Git command reference for reset](https://www.kernel.org/pub/software/scm/git/docs/git-reset.html).
 
