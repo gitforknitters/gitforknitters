@@ -127,3 +127,4 @@ This project is all in good fun and licensed for maximum sharing and reusability
 
 - Emma Jane Hogbin Westby ([emmajane](https://github.com/emmajane)) - [Git for Teams](http://gitforteams.com)
 - Yvonne Lam ([yzl](https://github.com/yzl))
+- Elaine Nelson ([epersonae](https://github.com/epersonae]))
