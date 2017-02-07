@@ -43,6 +43,30 @@ Once you've located the correct stash, you can apply it to your current branch.
 
 [Git command reference for stash](https://www.kernel.org/pub/software/scm/git/docs/git-stash.html).
 
+### commit
+*In knitting terms:* Some knitters like having multiple projects in flight.  Suppose you’re working on both a challenging lace shawl while also making progress on a baby blanket. You’ve been working on the shawl at home, but tonight you’re going to your knitting circle where you enjoy chatting and not having to concentrate so hard, so you’ll bring the baby blanket to work on.  Setting down your shawl, you up your stitch counter and/or mark the row you just finished on the pattern.
+
+*In Git terms:*
+Saving your changes is a two-step process in git.  First, you’ll want to use the add command to tell git that you have changes you want to be included in the next commit.
+
+`$ git add <file>`
+
+`$ git add <directory>`
+
+or
+
+`$ git add .` to include all changes in the next commit.
+
+Once the files have been “staged”, you can commit them to your local repository with a message:
+
+`$ git commit -m “<message>”`
+
+which is akin to you marking your stopping point in the pattern and enabling you to set down that lovely shawl for now, knowing that you won’t have lost your place the next time you work on it.
+
+[Git command reference for add](https://www.kernel.org/pub/software/scm/git/docs/git-add.html)
+
+[Git command reference for commit](https://www.kernel.org/pub/software/scm/git/docs/git-commit.html)
+
 ### reset
 
 *In knitting terms:* You're knitting lace. You realise your pattern isn't matching up. You're offset by a few stitches. Somewhere you've made a mistake. Bugger. Instead of ripping apart the whole piece, you can simply "tink" back to the mistake where you can fix it up and then continue knitting. "Tink" is a clever reversal of the word "Knit". When you are "tinking" you are merely "knitting backwards".
@@ -109,6 +133,31 @@ Then proceed with the rebasing process.
 `$ git rebase --continue`
 
 [Git command reference for rebase](https://www.kernel.org/pub/software/scm/git/docs/git-rebase.html).
+
+### pull request
+
+*In knitting terms:* Knitting a single item is generally a solo activity.  There are times, though, when we collaborate with others on a larger project.  Suppose you want to contribute to a community-supported yarn bomb for a tree.  You knit up a snazzy striped panel that you envision will be used to cover a branch.  You bind off, give your piece to the coordinators, and ask that they seam your piece to other pieces of the yarn bomb.
+
+*In Git terms:*
+When you commit changes, these are saved in your local repository.  In order to collaborate with others or publish your changes to the public, you’ll need to do a push.
+
+`$ git push`
+
+Generally, for public projects, you first fork and clone the repo.  This allows you to work independently until you're ready to collaborate.  When you push your changes, they will get pushed to your remote fork (the one on the server).  From there, you can go to github.com and open a pull request (PR), which is akin to telling your yarn bomb colleagues that you have a piece to contribute and that you'd like for them to join it to other pieces.
+
+[Git command reference for push](https://www.kernel.org/pub/software/scm/git/docs/git-push.html)
+
+[Github help for pull requests](https://help.github.com/articles/about-pull-requests/)
+
+### merge conflict
+
+*In knitting terms:* The coordinators of the tree yarn bomb love your work and want to include it.  However, they have already joined another contributor’s piece to the branch you wanted to add yours to.  Because they want visual continuity, and your piece will color clash with the other piece they just added, they ask that you modify the first few rows of striping in your piece.
+
+*In Git terms:* Since there have been changes to the yarn bomb in the area you want your piece joined to, you'll first need to rebase to get those changes (find out what has changed).  In our example, you will encounter a a merge conflict.  You make the requested changes in your piece so the striping is aesthetically pleasing, mark the conflict as resolved, then re-push your changes.  This also updates your pull request.  The contributors are happy and seam your piece to the rest of the yarn bomb.  Yay!
+
+[Git command reference for merge](https://www.kernel.org/pub/software/scm/git/docs/git-merge.html)
+
+[Git tutorial for rebasing vs. merging](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 ## Contributing
 
